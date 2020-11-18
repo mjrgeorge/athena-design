@@ -29,8 +29,8 @@ const Services = () => {
         }
     ]
     return (
-        <section className="container-fluid text-center  mt-5">
-            <div className="p-3">
+        <section className="text-center my-5">
+            <div className="p-3 mx-auto">
                 <h2>What we do</h2>
                 <p className="text-muted">Our main focus is to make the User Experience very <br /> simple and easy. Simplicity is our Strength.</p>
             </div>
