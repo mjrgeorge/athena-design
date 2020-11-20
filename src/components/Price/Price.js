@@ -1,5 +1,6 @@
 import React from 'react';
-import PriceDetails from '../PriceDetails/PriceDetails';
+import PriceDetails from './PriceDetails';
+import './Price.css';
 
 const Price = () => {
     const information = [
@@ -41,11 +42,11 @@ const Price = () => {
         },
     ]
     return (
-        <section className="text-center m-5">
+        <section className="text-center team-container mt-5" id='pricing'>
             <div className="p-3">
                 <h2>Choose Your Dedicated Team</h2>
             </div>
-            <div className="row">
+            <div className="row ">
                 {
                     information.map(info => <PriceDetails info={info} key={info.id}></PriceDetails>)
                 }

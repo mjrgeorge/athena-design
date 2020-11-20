@@ -1,0 +1,40 @@
+.service_area {
+  width: 100%;
+  padding: 0 7%;
+  display: table;
+  margin: 0;
+  max-width: none;
+  height: 50vh;
+
+  background-image: url('../../assets/images/path.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.service_container {
+  width: 320px;
+  height: 320px;
+}
+.service_container:hover {
+  box-shadow: 1px 1px 10px 1px lightgray;
+  border-radius: 75px 0 75px 0;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.service_area h2 {
+  font-family: 'Yeseva One', cursive;
+}
+
+@media (max-width: 576px) {
+  .service_area {
+    background-image: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .service_area {
+    background-image: none;
+  }
+}

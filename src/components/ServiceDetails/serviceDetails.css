@@ -1,9 +1,0 @@
-.service_container{
-    width: 320px;
-    height: 320px;
-}
-.service_container:hover{
-    box-shadow: 1px 1px 10px 1px lightgray;
-    border-radius: 75px 0 75px 0;
-    cursor: pointer;
-}

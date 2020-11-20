@@ -1,0 +1,37 @@
+.header-container {
+  width: 100%;
+  padding: 0 7%;
+  display: table;
+  margin: 0;
+  max-width: none;
+  height: 80vh;
+  background-image: url('../../../assets/images/headerbg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-container {
+  margin-bottom: 80px;
+}
+
+.header-container h1 {
+  font-family: 'Yeseva One', cursive;
+  color: #0d052e;
+  font-size: 60px;
+}
+
+@media (max-width: 576px) {
+  .header-container {
+    background-image: none;
+  }
+  .header-container h1 {
+    font-size: 36px;
+    margin: 30px 0 0 0 !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-container {
+    height: 55vh;
+  }
+}

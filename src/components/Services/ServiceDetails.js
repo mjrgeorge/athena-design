@@ -1,5 +1,5 @@
 import React from 'react';
-import './serviceDetails.css';
+
 
 const ServiceDetails = ({ service }) => {
     const { image, title, details } = service;

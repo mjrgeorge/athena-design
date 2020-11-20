@@ -1,9 +1,5 @@
-.btn-brand {
-  font-size: 18px;
-  font-weight: 500;
+.btn {
   background: transparent linear-gradient(128deg, #2af598 0%, #009efd 100%) 0%
     0% no-repeat padding-box;
   opacity: 1;
-
-  border-radius: 20px 0px 20px 0 !important;
 }

@@ -1,5 +1,6 @@
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import Home from './components/Home/Home';
+import './App.css';
+import Home from './Components/Home/Header/Home';
+
 
 function App() {
   return (
